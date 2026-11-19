@@ -9,7 +9,7 @@ This document defines the official catalog metadata, presentation copy, and deve
 - **Version:** `0.16.0`
 - **Category:** Developer Tools / Agentic Engineering
 - **Author:** Joel Taroreh
-- **Repository:** https://github.com/jtaroreh/agystack
+- **Repository:** https://github.com/semantic-craft/agystack
 - **License:** MIT
 - **Logo:** `assets/logo.png` (512x512 PNG, original pstack logo)
 
@@ -46,7 +46,7 @@ agy plugin install agystack
 
 ### Via Agent Prompt
 ```text
-install this antigravity plugin for me: https://github.com/jtaroreh/agystack
+install this antigravity plugin for me: https://github.com/semantic-craft/agystack
 ```
 
 ## Validation & Verification

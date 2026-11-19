@@ -15,9 +15,11 @@ NAME=$(python3 -c "import json; print(json.load(open('${MANIFEST}'))['name'])")
 
 if [[ "${1:-}" == "--test" ]]; then
   echo "Testing package readiness for ${NAME} v${VERSION}..."
-  if command -v /Users/joeltaroreh/.gemini/bin/agy >/dev/null 2>&1; then
-    /Users/joeltaroreh/.gemini/bin/agy plugin validate "${REPO_ROOT}" --strict
+  if ! AGY_BIN="$(command -v agy)"; then
+    echo "Error: agy CLI not found in PATH" >&2
+    exit 1
   fi
+  "${AGY_BIN}" plugin validate "${REPO_ROOT}" --strict
   echo "Package dry-run verified successfully for ${NAME} v${VERSION}"
   exit 0
 fi
