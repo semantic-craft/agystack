@@ -11,7 +11,7 @@ This document defines the official catalog metadata, presentation copy, and deve
 - **Author:** Joel Taroreh
 - **Repository:** https://github.com/jtaroreh/agystack
 - **License:** MIT
-- **Logo:** `assets/logo.svg` (256x256, transparent, high-contrast geometric chevron)
+- **Logo:** `assets/logo.png` (512x512 PNG, original pstack logo)
 
 ## Description
 

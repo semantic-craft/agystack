@@ -13,7 +13,7 @@
   "homepage": "https://github.com/jtaroreh/agystack",
   "repository": "https://github.com/jtaroreh/agystack",
   "license": "MIT",
-  "logo": "assets/logo.svg",
+  "logo": "assets/logo.png",
   "suggestedPrompts": [
     "/agystack plan and implement this feature",
     "/interrogate this implementation with multi-model adversarial reviews",
